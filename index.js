@@ -2,10 +2,6 @@
    this.name = name
    this.homeState = homeState
    this.training = training
-
-//   this.sayHi = function(){
-//     return `Hi, my name is ${this.name}. I am from ${this.homeState}, and I was trained in ${this.training}.`
-//   }
  }
 
  BoardMember.prototype.veto = function() {
@@ -27,4 +23,3 @@ BoardMember.prototype.releasePressStatement = function(){
 BoardMember.prototype.sayHi = function(){
    return `Hi, my name is ${this.name}. I am from ${this.homeState}, and I was trained in ${this.training}.`
 }
-
